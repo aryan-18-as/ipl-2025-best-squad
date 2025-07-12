@@ -11,44 +11,51 @@ Instead of relying on historical reputation or big names, this squad was created
 
 ### 📁 Datasets
 
-- `raw_dataset_1.csv` — Original raw player stats dataset
-- `raw_dataset_2.csv` — Auction price dataset
-- `raw_dataset_3.csv` — Detailed player type & performance dataset
-- `final_dataset.csv` — Cleaned & merged final dataset with all attributes
+#### ✅ Raw Scraped Datasets
+
+- `bowling_stats.csv` — Detailed bowling statistics scraped and processed
+- `ipl_player_stats.csv` — Overall performance and season-wise stats for each player
+- `ipl_player_data.csv` — Additional metadata about players (type, team, matches, etc.)
+- `ipl_2025_auction_players.csv` — Auction dataset with player sold prices for 2025
+
+#### ✅ Final Dataset
+
+- `final_dataset.csv` — Fully cleaned and merged dataset containing all players with their auction price, type, impact score, performance, and other attributes
 
 ---
 
 ### 🐍 Python Scripts
 
-- `merge_datasets.py` — Merges and cleans raw datasets into a final dataset
-- `top_15_selection.py` — Script to select top 15 players based on user-defined roles & budget constraints
-- `squad_algo.py` — Flexible algorithm to generate squads by specifying player counts and budgets dynamically
+- `merge_datasets.py` — Script to merge and clean all scraped datasets into one final unified dataset
+- `top_15_selection.py` — Script to select top 15 players based on user-defined role requirements and budget constraints
+- `squad_algo.py` — Flexible algorithm to generate customizable squads by specifying exact player counts (batsmen, bowlers, ARs) and budget splits
 
-> ⚡ All scripts also export an **HTML file** version for easier sharing and visual inspection.
+> ⚡ All scripts also export an **HTML version** for easy sharing or presentation.
 
 ---
 
 ### 📊 Dashboard
 
-- `IPL_2025_Dashboard.pbix` — Interactive Power BI dashboard (5 pages)
-- `IPL_2025_Dashboard.pdf` — Static PDF export of the dashboard for quick preview
+- `IPL_2025_Dashboard.pbix` — Interactive Power BI dashboard (5 pages), covering squad overview, budget analysis, batsmen analysis, all-rounders analysis, and bowlers analysis
+- `IPL_2025_Dashboard.pdf` — Static PDF export of the dashboard for offline viewing or slides
 
 ---
 
 ### 🖼️ Visuals
 
-- `final_squad.jpg` — High-quality poster of the final selected 15-player squad
+- `final_squad.jpg` — High-quality poster of the final 15-player data-driven squad, suitable for social media or presentations
 
 ---
 
 ## 💡 Key Features
 
-- Fully **user-customizable** squad creation
+- Fully **user-customizable** squad creation logic
 - Detailed **impact vs price analysis** for each role
 - Visual breakdown: batsmen, all-rounders, bowlers
 - Strict budget and overseas player constraints
 - Professionally designed Power BI dashboard for presenting insights
-- Ready for sharing or demonstration to recruiters, cricket enthusiasts, or data science showcases
+- Real-life IPL 2025 auction data incorporated
+- Ready for sharing or showcasing to recruiters, sports analytics enthusiasts, or cricket communities
 
 ---
 
