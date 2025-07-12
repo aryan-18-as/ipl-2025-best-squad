@@ -26,9 +26,9 @@ Instead of relying on historical reputation or big names, this squad was created
 
 ### 🐍 Python Scripts
 
-- `merge_datasets.py` — Script to merge and clean all scraped datasets into one final unified dataset
-- `top_15_selection.py` — Script to select top 15 players based on user-defined role requirements and budget constraints
-- `squad_algo.py` — Flexible algorithm to generate customizable squads by specifying exact player counts (batsmen, bowlers, ARs) and budget splits
+- `making_dataset_from_ipl11.py` — Script to merge and clean all scraped datasets into one final unified dataset
+- `ipl_2025.py` — Script to select top 15 players based on user-defined role requirements and budget constraints
+- `ipl_2025_team_algo.py` — Flexible algorithm to generate customizable squads by specifying exact player counts (batsmen, bowlers, ARs) and budget splits
 
 > ⚡ All scripts also export an **HTML version** for easy sharing or presentation.
 
@@ -63,3 +63,30 @@ Instead of relying on historical reputation or big names, this squad was created
 
 1️⃣ Clone this repository.  
 2️⃣ Run scripts in order:
+3️⃣ Open Power BI file `IPL_2025_Dashboard.pbix` to explore or customize visuals.
+4️⃣ Use final outputs (HTML files & squad poster) for presentation or sharing.
+
+---
+
+## 🏁 Conclusion
+
+> **I am working purely on data and have built this team based on impact and budget — not on history.**
+
+This project represents how a data analyst approaches squad building: combining analytics, business logic, and visualization to create the most impactful outcome.
+
+---
+
+## 🙏 Acknowledgements
+
+Thanks to IPL fans, data mentors, and cricket communities for their support and feedback on data-driven sports analytics projects!
+
+---
+
+## 🔗 Connect
+
+Feel free to connect with me on [LinkedIn](https://www.linkedin.com/in/aryan-saxena-615318309/) or reach out for collaborations and feedback.
+
+---
+
+⭐ **If you like this project, please give it a star and share it with fellow cricket & data science enthusiasts!**
+
