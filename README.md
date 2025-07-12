@@ -36,8 +36,8 @@ Instead of relying on historical reputation or big names, this squad was created
 
 ### 📊 Dashboard
 
-- `IPL_2025_Dashboard.pbix` — Interactive Power BI dashboard (5 pages), covering squad overview, budget analysis, batsmen analysis, all-rounders analysis, and bowlers analysis
-- `IPL_2025_Dashboard.pdf` — Static PDF export of the dashboard for offline viewing or slides
+- `IPL Analysis.pbix` — Interactive Power BI dashboard (5 pages), covering squad overview, budget analysis, batsmen analysis, all-rounders analysis, and bowlers analysis
+- `IPL Analysis.pdf` — Static PDF export of the dashboard for offline viewing or slides
 
 ---
 
